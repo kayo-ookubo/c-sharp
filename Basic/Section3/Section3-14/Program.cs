@@ -23,7 +23,7 @@ namespace Section314
                 Console.WriteLine("負の数です。");
             }
 
-            else if ( a == 0 )
+            else
             {
                 Console.WriteLine("ゼロです。");
             }
