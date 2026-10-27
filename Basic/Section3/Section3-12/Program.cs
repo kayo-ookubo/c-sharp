@@ -15,17 +15,17 @@ namespace Section312
             Console.Write("b="); b = int.Parse(Console.ReadLine());
             Console.Write("c="); c = int.Parse(Console.ReadLine());
 
-            if (a > b && a > c)
+            if (a >= b && a >= c)
             {
                 Console.WriteLine("最大値=" + a);
             }
 
-            else if (b > a && b > c)
+            else if (b >= a && b >= c)
             {
                 Console.WriteLine("最大値=" + b);
             }
 
-            else if (c > a && c > b)
+            else
             {
                 Console.WriteLine("最大値=" + c);
             }
