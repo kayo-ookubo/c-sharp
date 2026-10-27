@@ -13,7 +13,7 @@ namespace Section304
             Console.Write("整数aを入力:");
             int a = int.Parse(Console.ReadLine());
 
-            Console.Write("整数bを入力");
+            Console.Write("整数bを入力:");
             int b = int.Parse(Console.ReadLine());
 
             if (a == b)
