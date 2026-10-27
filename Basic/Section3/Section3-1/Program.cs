@@ -15,7 +15,7 @@ namespace Section301
 
             if (a == 0)
             {
-                Console.WriteLine("0です。");
+                Console.WriteLine("0です");
             }
         }
     }
