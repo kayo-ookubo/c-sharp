@@ -12,6 +12,7 @@ namespace Section204
         {
             string str1;
             str1 = Console.ReadLine();
+            Console.WriteLine(str1);
         }
     }
 }
