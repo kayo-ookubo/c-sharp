@@ -15,7 +15,7 @@ namespace Section302
 
             if (a > 0)
             {
-                Console.WriteLine("正の数です。");
+                Console.WriteLine("正の数です);
             }
         }
     }

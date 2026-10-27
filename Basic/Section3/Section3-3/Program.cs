@@ -15,7 +15,7 @@ namespace Section302
 
             if (a >= 0)
             {
-                Console.WriteLine("0以上です。");
+                Console.WriteLine("0以上です");
             }
         }
     }
