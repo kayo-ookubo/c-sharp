@@ -10,14 +10,12 @@ namespace Section207
     {
         static void Main(string[] args)
         {
-            const double tax = 0.1;
+            const decimal TaxRate = 0.1m;
 
-            int price;
             Console.Write("価格を入力:");
+            decimal price = decimal.Parse(Console.ReadLine());
 
-            price = int.Parse(Console.ReadLine());
-
-            int total = (int)(price * (1 + tax));
+            decimal total = Math.Floor(price * (1 + TaxRate));
 
             Console.WriteLine("税込価格:" + total);
 
