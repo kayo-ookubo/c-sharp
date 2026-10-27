@@ -19,7 +19,7 @@ namespace Section307
                 Console.WriteLine("偶数です");
             }
 
-            else if (a % 2 == 1)
+            else
             {
                 Console.WriteLine("奇数です");
             }
