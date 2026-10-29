@@ -13,7 +13,7 @@ namespace Section405
 
             for (int i = 2; i <= 8; i += 2)
             {
-                Console.WriteLine(i + "");
+                Console.WriteLine(i);
             }
             Console.WriteLine();
         }
