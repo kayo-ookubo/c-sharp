@@ -10,8 +10,8 @@ namespace Section409
     {
         static void Main(string[] args)
         {
-            int Max = 0;
-            int Min = 0;
+            int max = 0;
+            int min = 0;
 
             Random rnd = new Random();
 
@@ -19,14 +19,14 @@ namespace Section409
             {
                 int n = rnd.Next(1, 101);
 
-                if (i == 0 || Max < n) Max = n;
-                if (i == 0 || Min > n) Min = n;
+                if (i == 0 || max < n) max = n;
+                if (i == 0 || min > n) min = n;
 
                 Console.WriteLine(n);
             }
 
-            Console.WriteLine("最大値=:" + Max);
-            Console.WriteLine("最小値=:" + Min);
+            Console.WriteLine("最大値=" + max);
+            Console.WriteLine("最小値=" + min);
         }
     }
 }
