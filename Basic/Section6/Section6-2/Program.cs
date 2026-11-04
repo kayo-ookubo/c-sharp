@@ -13,15 +13,15 @@ namespace Section602
             Calc calc = new Calc();
             double a = 4.1;
             double b = 2.3;
-            double ans1 = calc.Add(a, b);
-            double ans2 = calc.Sub(a, b);
-            double ans3 = calc.Mul(a, b);
-            double ans4 = calc.Div(a, b);
+            double add = calc.Add(a, b);
+            double sub = calc.Sub(a, b);
+            double mul = calc.Mul(a, b);
+            double div = calc.Div(a, b);
 
-            Console.WriteLine($"{a} + {b} = {ans1:F1}");
-            Console.WriteLine($"{a} - {b} = {ans2:F1}");
-            Console.WriteLine($"{a} * {b} = {ans3:F2}");
-            Console.WriteLine($"{a} / {b} = {ans4:F14}");
+            Console.WriteLine($"{a} + {b} = {add:F1}");
+            Console.WriteLine($"{a} - {b} = {sub:F1}");
+            Console.WriteLine($"{a} * {b} = {mul:F2}");
+            Console.WriteLine($"{a} / {b} = {div:F14}");
         }
     }
 }
