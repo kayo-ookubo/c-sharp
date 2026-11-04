@@ -21,16 +21,13 @@ namespace Section510
 
             Console.WriteLine();
 
-            for (int i = 1; i < 6; i++)
+            for (int i = 0; i < n.Length; i++)
             {
-                Console.Write(i + ":");
+                Console.Write((i + 1) + ":");
 
-                for (int j = 0; j < n.Length; j++)
+                for (int j = 0; j < n[i]; j++)
                 {
-                    if (n[j] == i)
-                    {
-                        Console.Write(" ★");
-                    }
+                    Console.Write(" ★");
                 }
                 Console.WriteLine();
             }
