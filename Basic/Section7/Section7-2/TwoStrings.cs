@@ -8,8 +8,8 @@ namespace Section702
 {
     class TwoStrings
     {
-        public string String1 { get; set;}
-        public string String2 { get; set;}
+        public string String1 { get; set;} = string.Empty;
+        public string String2 { get; set;} = string.Empty;
 
         public string GetConnectedString()
         {
