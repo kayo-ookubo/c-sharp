@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Section805
+namespace Section806
 {
     class Program
     {
@@ -30,7 +30,7 @@ namespace Section805
             bunshi = bunshi / gcd;
             bunbo = bunbo / gcd;
 
-            Console.WriteLine($"答えは{bunshi}/{bunbo}です。");
+            Console.WriteLine($"{a}/{b} + {c}/{d} = {bunshi}/{bunbo}");
         }
 
         public static int Gcd(int x, int y)
