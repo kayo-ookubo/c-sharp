@@ -15,7 +15,7 @@ namespace Section810
 
             for (int i = 0; i < n.Length; i++)
             {
-                n[i] = rand.Next(1, 100);
+                n[i] = rand.Next(1, 101);
             }
 
             Console.Write("並び変え前：");
@@ -51,6 +51,7 @@ namespace Section810
             {
                 Console.Write(n[i] + " ");
             }
+            Console.WriteLine();
         }
     }
 }
