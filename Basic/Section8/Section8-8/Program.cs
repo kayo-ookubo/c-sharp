@@ -12,7 +12,7 @@ namespace Section808
         {
             int sum;
 
-            for (int i = 1; i <= 1000; i++)
+            for (int i = 1; i <= 10000; i++)
             {
                 sum = 0;
 
