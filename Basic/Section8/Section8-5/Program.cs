@@ -17,6 +17,7 @@ namespace Section805
                     Console.Write(i + " ");
                 }
             }
+            Console.WriteLine();
         }
     }
 }
