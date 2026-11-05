@@ -12,17 +12,15 @@ namespace Section102
         private int num2;
 
         // 引数なし
-        public Calc()
+        public Calc(): this(1, 2)
         {
-            num1 = 1;
-            num2 = 2;
         }
 
         // 引数二つ
         public Calc(int n1, int n2)
         {
-            num1 = n1;
-            num2 = n2;
+            this.num1 = n1;
+            this.num2 = n2;
         }
 
         public void ShowAdd()
