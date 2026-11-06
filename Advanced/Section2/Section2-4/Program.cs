@@ -1,13 +1,20 @@
 namespace Section204
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Counter.Count();
-            Counter.Count();
-            Counter.Count();
-            Counter.Count();
+            Counter a = new Counter();
+            Counter b = new Counter();
+
+            a.Increment();
+            Console.WriteLine("total: {0}", Counter.TotalCount);
+
+            a.Increment();
+            Console.WriteLine("total: {0}", Counter.TotalCount);
+
+            b.Increment();
+            Console.WriteLine("total: {0}", Counter.TotalCount);
         }
     }
 }

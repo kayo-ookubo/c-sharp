@@ -2,17 +2,16 @@
 {
     class Counter
     {
-        public static int totalCount = 0;
+        private static int totalCount = 0;
 
         public static int TotalCount
         {
             get {  return totalCount; }
         }
 
-        public static void Count()
+        public void Increment()
         {
             totalCount++;
-            Console.WriteLine($"トータルカウント数：{TotalCount}");
         }
 
     }
