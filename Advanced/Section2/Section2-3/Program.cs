@@ -11,7 +11,7 @@
 
             Console.WriteLine($"縦：{rows} 横：{cols}");
 
-            Calc.Square(rows, cols);
+            Shape.Square(rows, cols);
         }
     }
 }

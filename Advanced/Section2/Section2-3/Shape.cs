@@ -1,6 +1,6 @@
 namespace Section203
 {
-    class Calc
+    class Shape
     {
         public static void Square(int rows, int cols)
         {
