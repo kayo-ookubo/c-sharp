@@ -1,5 +1,3 @@
-using System.Runtime.CompilerServices;
-
 namespace Section501
 {
     class CellPhone : IPhone, IMailer, IComputer
