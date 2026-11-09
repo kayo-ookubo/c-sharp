@@ -19,12 +19,12 @@ namespace Section502
 
         public void AdjustTime()
         {
-            Console.WriteLine("時計を修正する");
+            Console.WriteLine("時刻を修正する");
         }
 
         public void ShowTime()
         {
-            Console.WriteLine("時計を知る");
+            Console.WriteLine("時刻を知る");
         }
     }
 }
