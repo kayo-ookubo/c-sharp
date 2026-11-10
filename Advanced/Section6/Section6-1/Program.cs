@@ -17,7 +17,6 @@
 
                 if (num == 0)
                 {
-                    Console.WriteLine();
                     break;
                 }
 
