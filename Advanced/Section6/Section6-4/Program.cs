@@ -12,7 +12,7 @@
                 string str = Console.ReadLine();
 
                 // 空文字なら終了
-                if (str == "")
+                if (string.IsNullOrEmpty(str))
                 {
                     break;
                 }
